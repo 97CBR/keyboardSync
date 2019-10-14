@@ -8,10 +8,9 @@ import redis
 
 class redisServer:
     def __init__(self):
-        # self.ip = "125.217.52.17"
         self.ip = "127.0.0.1"
         self.port = 2019
-        self.redis_manager = redis.Redis(self.ip, port=self.port, password="MarxCBR")
+        self.redis_manager = redis.Redis(self.ip, port=self.port, password="*****")
         # print(self.redis_manager.exists("cbr"))
 
     # 判断车辆是否离开停车场

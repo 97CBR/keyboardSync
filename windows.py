@@ -47,7 +47,7 @@ class windowsClient:
         with Listener(on_press=self.on_press, on_release=self.on_release) as listener:
             listener.join()
 
-
+# TODO : 键鼠同步功能后期看情况进行完善，目前使用synergy
 if __name__ == '__main__':
     # 实例化键盘
     # kb = Controller()
